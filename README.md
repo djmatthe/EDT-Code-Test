@@ -1,8 +1,7 @@
 # Darren Matthew - Eagle Dream Code Test (7/24/19)
 
 ### Website URL:
-    <https://edt-test.s3.us-east-2.amazonaws.com/index.html>
-    <https://www.google.com>
+    https://edt-test.s3.us-east-2.amazonaws.com/index.html
   
 ### AWS Credentials:
 	Account ID/Alias: 222374808448
