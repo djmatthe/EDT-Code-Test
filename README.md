@@ -1,15 +1,20 @@
 # Darren Matthew - Eagle Dream Code Test
 
 ### Website URL:
-    [https://edt-test.s3.us-east-2.amazonaws.com/index.html](https://edt-test.s3.us-east-2.amazonaws.com/index.html)
+    https://edt-test.s3.us-east-2.amazonaws.com/index.html
   
 ### AWS Credentials:
-  	Account ID/Alias: 222374808448
-	  IAM Username: EagleDream
-	  Password: v3rySecure
+	Account ID/Alias: 222374808448
+	IAM Username: EagleDream
+	Password: v3rySecure
     
 ### Lambda Function (Python):
 ```
+import json
+import boto3
+import csv
+import uuid
+
 def write_to_dynamobd(file_path, file_name):
     dynamodb = boto3.resource("dynamodb")
     
